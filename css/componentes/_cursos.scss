@@ -1,0 +1,56 @@
+.cursos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo-principal {
+        font-size: 35px;
+        border-bottom: 4px solid #72FFFF;
+    }
+    .cursos__card {
+        display: flex;
+        padding: 20px;
+        .card__img {
+            width: 150px;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        .card__descri {
+            width: 800px;
+            font-size: 23px;
+            font-weight: 100;
+            word-spacing: 10px;
+            line-height: 30px;
+            padding: 10px 0;
+            width: 600px;
+            strong {
+                color: #72FFFF;
+            }
+        }
+    }
+}
+@media screen and (max-width:850px) {
+    .cursos {
+        .cursos__card {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .card__img {
+                width: 100px;
+            }
+            .card__descri {
+                font-weight: 100;
+                width: 400px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .cursos {
+        .cursos__card {
+            .card__descri {
+                width: 300px;
+            }
+        }
+    }
+}

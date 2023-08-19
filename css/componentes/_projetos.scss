@@ -1,0 +1,81 @@
+.projetos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo-principal {
+        border-bottom: 4px solid #72FFFF;
+        font-size: 35px;
+    }
+    .boxs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        .box-projeto {
+            padding: 20px;
+            width: 350px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            height: 420px;
+            img {
+                width: 350px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            }
+            .tecnologias {
+                i{
+                    font-size: 35px;
+                    color: #000;
+                }
+                .bxl-html5{
+                    color: orangered;
+                }
+                .bxl-css3{
+                    color: rgb(0, 174, 255);
+                }
+                .bxl-javascript{
+                    color: #F0DB4F;
+                }
+                .bxl-react {
+                    color: #61DBFB;
+                }
+            }
+            .titulo-projeto {
+                color: #000;
+                font-size: 20px;
+            }
+            .desc {
+                font-size: 18px;
+                font-weight: 100;
+                color: #000;
+            }
+            .projeto-btn {
+                margin-top: 20px;
+                
+                .link {
+                    background-color: #4681f4;
+                    padding: 10px 30px;
+                    color: white;
+                    font-size: 20px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .projetos {
+        .boxs {
+            .box-projeto {
+                width: 300px;
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}

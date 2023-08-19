@@ -1,0 +1,64 @@
+.competencias {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo-principal {
+        font-size: 35px;
+        border-bottom: 4px solid #72FFFF;
+    }
+    .competencia__lista{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        .competencia__item {
+            list-style: none;
+            padding: 23px;
+            font-size: 23px;
+            transition: 0.5s;
+            i {
+                font-size: 20px;
+            }
+        }
+        .html:hover {
+            color: orange;
+            font-size: 25px;
+        }
+        .css:hover {
+            color: rgb(73, 107, 255);
+            font-size: 25px;
+        }
+        .javascript:hover {
+            color: rgb(255, 255, 52);
+            font-size: 25px;
+        }
+        .react:hover {
+            color: rgb(0, 157, 230);
+            font-size: 25px;
+        }
+        .sass:hover {
+            color: rgb(255, 101, 234);
+            font-size: 25px;
+        }
+        .flex:hover {
+            color: rgb(101, 206, 255);
+            font-size: 25px;
+        }
+        .pac:hover {
+            color: rgb(255, 102, 0);
+            font-size: 25px;
+        }
+        .type:hover {
+            color: rgb(143, 191, 253);
+            font-size: 25px;
+        }
+    }
+}
+@media  screen and (max-width: 600px) {
+    .competencias {
+        .competencia__lista {
+            padding-left: 0;
+        }
+    }
+}

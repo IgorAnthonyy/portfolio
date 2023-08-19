@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./img/igor-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfólio - Igor Anthony</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="nav-bar">
+            <div class="logo"><h1>Igor Anthony</h1></div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#sobre" class="navbar__link" >Sobre</a></li>
+                    <li class="nav-item"><a href="#formacao" class="navbar__link">Formação Acadêmica</a></li>
+                    <li class="nav-item"><a href="#cursos" class="navbar__link">Cursos</a></li>
+                    <li class="nav-item"><a href="#competencias" class="navbar__link">Competências</a></li>
+                    <li class="nav-item"><a href="#projetos" class="navbar__link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="navbar__link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class='bx bx-menu'></i></button>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#sobre" class="navbar__link" >Sobre</a></li>
+                    <li class="nav-item"><a href="#formacao" class="navbar__link">Formação Acadêmica</a></li>
+                    <li class="nav-item"><a href="#cursos" class="navbar__link">Cursos</a></li>
+                    <li class="nav-item"><a href="#competencias" class="navbar__link">Competências</a></li>
+                    <li class="nav-item"><a href="#projetos" class="navbar__link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="navbar__link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="sobre" id="sobre">
+        <div class="sobre__content">
+            <h2>Igor Anthony</h2>
+            <h3>Desenvolvedor Front-End</h3>
+            <p class="descricao">Olá, tenho 18 anos e sou apaixonado por tecnologia, sou formado na ETEC MARIA CRIATINA MEDEIROS com curso integrado ao Técnico de informática para internet. Tenho interesse em trabalhar como Desenvolvedor Front-End, desenvolvendo sites, aplicativos e etc. Atualmente estou cursando Ensino superior de Análise e Desenvolvimento de Sistemas na SÃO PAULO TECH SCHOOL.</p>
+            <div class="content__redes">
+                <a href="https://www.linkedin.com/in/igor-anthony-5b4134248/" class="redes__link"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/igor.anthonyy/" class="redes__link"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/IgorAnthonyys" class="redes__link"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="sobre_img">
+            <img src="./img/igor-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <section class="formacao-academica" id="formacao">
+        <h2 class="titulo-principal">Formação Acadêmica</h2>
+        <div class="formacao__card">
+            <img src="./img/etec.jpg" alt="" class="card__img">
+            <p class="card__descri">Ensino médio integrado ao técnico de informática para internet <strong> ETEC Profª Maria Cristina Medeiros </strong> – Ribeirão Pires, SP - Início: 2020, Término: 2022.</p>
+        </div>
+        <div class="formacao__card">
+            <img src="./img/gtKFcsdc_400x400.jpg" alt="" class="card__img">
+            <p class="card__descri">Ensino superior de Análise e Desenvolvimento de Sistemas <strong> SÃO PAULO TECH SCHOOL </strong>- Avenida Paulista, SP - Início: 2023/2, Término: 2025.</p>
+        </div>
+    </section>
+    <section class="cursos" id="cursos">
+        <h2 class="titulo-principal">Cursos</h2>
+        <div class="cursos__card">
+            <img src="./img/alura.jfif" alt="" class="card__img">
+            <p class="card__descri">Curso online de Programação (Front-End "HTML5, CSS3, JAVASCRIPT e FRAMEWORKS") 218 horas <strong> ALURA </strong> – Online - Concluído: 27/04/2023.</p>
+        </div>
+    </section>
+    <section class="competencias" id="competencias">
+        <h2 class="titulo-principal">Competências</h2>
+        <ul class="competencia__lista">
+            <li class="competencia__item html"><i class='bx bxl-html5'></i>HTML</li>
+            <li class="competencia__item css"><i class='bx bxl-css3' ></i>CSS</li>
+            <li class="competencia__item sass"><i class='bx bxl-sass'></i>SASS</li>
+            <li class="competencia__item flex"><i class='bx bxs-credit-card-front' ></i>FLEXBOX</li>
+            <li class="competencia__item javascript"><i class='bx bxl-javascript' ></i>JAVASCRIPT</li>
+            <li class="competencia__item react"><i class='bx bxl-react' ></i>REACT JS</li>
+            <li class="competencia__item type"><i class='bx bxl-typescript' ></i>TYPESCRIPT</li>
+          </ul>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo-principal">Projetos</h2>
+        <div class="boxs">
+            <div class="box-projeto">
+                <img src="./img/parallax.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Efeito Parallax</h3>
+                <p class="desc">Projeto desenvolvido no Senai Mauá - Jairo Candido.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/parallax/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/pm.PNG" alt="parallax">
+                <h3 class="titulo-projeto">PM Gestão de Projetos</h3>
+                <p class="desc">Projeto desenvolvido por Igor Anthony para a empresa PM Gestão de projetos.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://pmgestaodeprojetos.netlify.app/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/calculadora.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Calculadora com JS</h3>
+                <p class="desc">Projeto desenvolvido juntamente com a plataforma de cursos online ALURA</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/calculadora-js/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/qr.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Gerador de QR CODE</h3>
+                <p class="desc">Projeto desenvolvido no Senai Mauá - Jairo Candido.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/gerador-de-qrcode/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/tomasom.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Tocador de som JS</h3>
+                <p class="desc">Projeto desenvolvido juntamente com a plataforma de cursos online ALURA.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/tocasom-js/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/acerteonumero.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Descobre numero pela voz</h3>
+                <p class="desc">Projeto desenvolvido juntamente com a plataforma de cursos online ALURA.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/descobre-numero-por-voz/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/react.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Projeto cria card com REACT</h3>
+                <p class="desc">Projeto desenvolvido juntamente com a plataforma de cursos online ALURA.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-react'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://react-nu-navy.vercel.app/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/viagem.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Teste habilidades Front-End</h3>
+                <p class="desc">Projeto desenvolvido no Senai Mauá - Jairo Candido.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/page-website-2/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/viagemgre.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Teste habilidades Front-End</h3>
+                <p class="desc">Projeto desenvolvido no Senai Mauá - Jairo Candido.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/page-website-1/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+            <div class="box-projeto">
+                <img src="./img/fina.PNG" alt="parallax">
+                <h3 class="titulo-projeto">Sistema Financeiro</h3>
+                <p class="desc">Projeto desenvolvido no Senai Mauá - Jairo Candido.</p>
+                <div class="tecnologias">
+                    <i class='bx bxl-html5' ></i>
+                    <i class='bx bxl-css3'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <div class="projeto-btn">
+                    <a href="https://igoranthonyy.github.io/page-website-1/" class="link">Conheça o Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato" class="contato">
+        <h3 class="titulo-principal">Contato</h3>
+        <div class="contate-me">
+            <div class="sep">
+                <p class="email"><i class='bx bx-envelope'></i>igor.anthony.iop@gmail.com</p>
+                <p class="telefone"><i class='bx bxs-phone'></i>(11)94487-8214</p>
+            </div>
+            <p class="descript">Aceito trabalhos como freelancer e desenvolvedor front-end</p>
+        </div>
+    </footer>
+    <script src="./js/menu-humburg.js"></script>
+</body>
+</html>
